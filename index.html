@@ -11,12 +11,13 @@
         <script type="text/javascript" src="js/uikit.js"></script>
         <script type="text/javascript" src="js/components/sticky.js"></script>
         <script type="text/javascript" src="js/core/offcanvas.js"></script>
-        <script type="text/javascript" src="js/core/modal.js"></script>      
+        <script type="text/javascript" src="js/core/modal.js"></script>   
     </head>
+
 <body>
+ <div class="uk-container uk-container-center uk-margin-top">    
 
-  <div class="uk-container uk-container-center uk-margin-top">    
-
+ <header>
   <nav class="uk-navbar" data-uk-sticky="{boundary:'#define-an-offset'}">
     <a href="index.html" class="uk-navbar-brand uk-visible-large" > Olena Salnikova </a>
       <ul class="uk-navbar-nav uk-visible-large" data-uk-scrollspy-nav="{closest:'li', smoothscroll:{offset:50}}">
@@ -25,8 +26,9 @@
         <li><a href="panny.html"> PANNY </a></li>
       </ul>
     <a href="#offcanvas" class="uk-navbar-toggle uk-hidden-large" data-uk-offcanvas></a>
-        <a href="index.html" class="uk-navbar-brand uk-hidden-large" >Olena Salnikova</a>
+     <a href="index.html" class="uk-navbar-brand uk-hidden-large" >Olena Salnikova</a>
   </nav>
+ </header>
 
 <section>
   <h1 class="uk-text-center uk-hidden-small">Olena Salnikova's personal website</h1>
@@ -39,7 +41,7 @@
               </div>
             </li>
     
-            <li class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2"><div class="uk-panel uk-panel-box uk-text-center">       
+            <li class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2"><div class="uk-panel uk-panel-box uk-text-center"> 
                 <p class="uk-text-large">
                  <strong> Welcome to my little corner of the Internet!</strong>
                 </p>
@@ -59,9 +61,9 @@
                 <p>
                    If you have any questions, don't hesitate to
                    <a href="mailto:olenasalnikova@yahoo.fr"> contact me. </a> <br>
-                </p>
-                   
-            </div></li>
+                </p>                   
+              </div>
+            </li>
        
             <li class="uk-width-small-1-1 uk-width-large-1-4"><div class="uk-panel uk-panel-box uk-text-center uk-hidden-small uk-hidden-medium">       
               <h3>Follow Me</h3>
@@ -78,14 +80,12 @@
             </li>        
         </ul>
  
-  <ul class="uk-grid uk-grid-width-small-1-1 uk-grid-width-large-1-4" data-uk-grid-match="{target:'.uk-panel'}">
-    <li><div class="uk-panel uk-panel-box uk-text-center">       
-       <h2>My Skills</h2>
-       
-        <div data-uk-dropdown="{mode:'click'}">
-
-          <div class="uk-button uk-button uk-align-center"> - Teaching  skills </div>   
-            <div class="uk-dropdown">
+        <ul class="uk-grid uk-grid-width-small-1-1 uk-grid-width-large-1-4" data-uk-grid-match="{target:'.uk-panel'}">
+          <li><div class="uk-panel uk-panel-box uk-text-center">       
+            <h2>My Skills</h2>       
+            <div data-uk-dropdown="{mode:'click'}">
+             <div class="uk-button uk-button uk-align-center"> - Teaching  skills </div>   
+              <div class="uk-dropdown">
                 <a href="" class="uk-close uk-align-right"></a>
                  <ul class="uk-text-left  uk-text-small" >
                   <li>Teach Office Software, Mathematics, Physics, Methods of Applying Educational Technology; </li>
@@ -94,13 +94,13 @@
                   <li>Monitor and Evaluate Student Performances;</li>     
                   <li>Apply Educational Technology in Learning Process.</li>
                  </ul>
-            </div>   
-          </div>
-        <div data-uk-dropdown="{mode:'click'}">
+              </div>   
+            </div>
+          <div data-uk-dropdown="{mode:'click'}">
           <div class="uk-button uk-button uk-align-center"> - Computer skills</div>
             <div class="uk-dropdown">
               <a href="" class="uk-close uk-align-right"></a>
-            <ul class="uk-text-left uk-text-small" >
+              <ul class="uk-text-left uk-text-small" >
               <li>Document preparation system (LaTeX, MS Word);</li> 
               <li>Spreadsheet (MS Excel);</li>
               <li>Multimedia Presentation(MS PowerPoint, LaTeX);</li>
@@ -110,47 +110,47 @@
               <li>Schematic Illustrations (CmapTools, MS Visio);</li>
               <li>Data Analysis (EndNote, QDA Miner, Atlas.ti).</li>
              </ul>
-        </div>
-      </div>
-   
-       </div></li>
-    <li><div class="uk-panel uk-panel-box uk-text-center">       
+           </div>
+          </div>   
+         </div>
+       </li>
+
+      <li><div class="uk-panel uk-panel-box uk-text-center">       
        <h2>My Work</h2>
-    <div data-uk-dropdown="{mode:'click'}">
-      <div class="uk-button uk-button  uk-align-center"> - Math Teacher </div>          
-      <div class="uk-dropdown">
+        <div data-uk-dropdown="{mode:'click'}">
+          <div class="uk-button uk-button  uk-align-center"> - Math Teacher </div>          
+          <div class="uk-dropdown">
             <a href="" class="uk-close uk-align-right"></a>
               <ul class="uk-text-left  uk-text-small" >
-                <li class="uk-text-uppercase">Private High Scool, Montreal (Canada)<br>
+                <li>Private High Scool, Montreal (Canada)<br>
                 <i>2015 - Present</i></li>
                 <li>Plan and Teach the course 'Algebra' for Secondary Classes;</li>
                 <li>Develop Learning Activities and Teaching Materials;</li>
                 <li>Evaluate Learning Progress.</li>                
               </ul>
-      </div>   
-    </div>
-<div data-uk-dropdown="{mode:'click'}">
-      <div class="uk-button uk-button uk-align-center"> - Office Software Teacher</div>
-      <div class="uk-dropdown">
-   <a href="" class="uk-close uk-align-right"></a>
+          </div>   
+        </div>
+        <div data-uk-dropdown="{mode:'click'}">
+        <div class="uk-button uk-button uk-align-center"> - Office Software Teacher</div>
+        <div class="uk-dropdown">
+        <a href="" class="uk-close uk-align-right"></a>
             <ul class="uk-text-left uk-text-small" >
-              <li class="uk-text-uppercase">Cegep Gerald-Godin, Montreal (Canada)
+              <li>Cegep Gerald-Godin, Montreal (Canada)
               <br><i>2013 - 2015</i></li>
               <li>Plan and Teach the course 'Updates Web Page' for Continuing Education;</li>
               <li>Develop Learning Activities for use MS Expression Web;</li>
               <li>Compose Formative Tests with Web Netquiz;</li>
               <li>Evaluate the Students Competencies.</li>
-            </ul>
-    </div>
-  </div>
-</div></li>
+             </ul>
+            </div>
+          </div>
+        </div>
+      </li>
 
-       <li><div class="uk-panel uk-panel-box uk-text-center">       
-       <h2>My Education</h2>
-<div data-uk-dropdown="{mode:'click'}">
-
-      <div class="uk-button uk-button uk-align-center"> - Pedagogical </div>
- 
+      <li><div class="uk-panel uk-panel-box uk-text-center">       
+      <h2>My Education</h2>
+      <div data-uk-dropdown="{mode:'click'}">
+      <div class="uk-button uk-button uk-align-center"> - Pedagogical </div> 
       <div class="uk-dropdown">
                 <a href="" class="uk-close uk-align-right"></a>
                 <ul class="uk-text-left  uk-text-small" >
@@ -165,14 +165,13 @@
                 Berdyansk State Pedagogical University, Ukraine<br>
                 <i>1989</i>.</li>                
              </ul>
- </div>   
-    </div>
-<div data-uk-dropdown="{mode:'click'}">
+        </div>   
+      </div>
+      <div data-uk-dropdown="{mode:'click'}">
       <div class="uk-button uk-button uk-align-center"> - Technological</div>
       <div class="uk-dropdown">
-   <a href="" class="uk-close uk-align-right"></a>
-            <ul class="uk-text-left uk-text-small" >
-              
+        <a href="" class="uk-close uk-align-right"></a>
+            <ul class="uk-text-left uk-text-small" >              
               <li>Web Design for Everybody:<br>
               Introduction to HTML5;<br>
               Introduction to CSS3;<br>
@@ -184,22 +183,22 @@
               Highter School of Economics<br>
               <i>2016</i>;</li>
               <li>MS Office Software<br> 
-                Cegep Saint-Laurent<br>
-                <i>2013</i>.</li> 
+               Cegep Saint-Laurent<br>
+               <i>2013</i>.</li> 
             </ul>
           </div>
         </div>
        </div></li>
-       <li><div class="uk-hidden-small uk-visible-large" left="0" right="0">       
+       <li><div class="uk-hidden-small uk-visible-large">       
           <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=180&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=r0f5bnqd2qlr7sp08rfg0phu00%40group.calendar.google.com&amp;color=%2323164E" style="border-width:0 border:0; scrolling: 'no';" width="290" height="180"></iframe>      
       </div></li>
-  </ul>
+    </ul>
 
-  <div class="uk-panel uk-panel-box uk-text-center uk-visible-small uk-align-center">
-              <p><a href="https://ca.linkedin.com/in/olena-salnikova-9172647a" class="uk-icon-linkedin">&emsp; &emsp;</a>
-              <a href="https://www.facebook.com/olena.salnikova.9" class="uk-icon-facebook">&emsp; &emsp;</a>
-              <a href="mailto:olenasalnikova@yahoo.fr" class="uk-icon-envelope"></a></p>
-              </div>
+    <div class="uk-panel uk-panel-box uk-text-center uk-visible-small uk-align-center">
+       <p><a href="https://ca.linkedin.com/in/olena-salnikova-9172647a" class="uk-icon-linkedin">&emsp; &emsp;</a>
+       <a href="https://www.facebook.com/olena.salnikova.9" class="uk-icon-facebook">&emsp; &emsp;</a>
+        <a href="mailto:olenasalnikova@yahoo.fr" class="uk-icon-envelope"></a></p>
+     </div>
 </section>
 
 <footer>
@@ -214,15 +213,16 @@
     </div>
 </footer>
 
-<div id="offcanvas" class="uk-offcanvas">
-  <div class="uk-offcanvas-bar">
-    <ul class="uk-nav uk-nav-offcanvas">
-      <li><a href="index.html"> HOME </a></li>
-      <li><a href="hobby.html"> HOBBY </a></li>
-      <li><a href="panny.html"> PANNY </a></li>
-    </ul>
+  <div id="offcanvas" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar">
+      <ul class="uk-nav uk-nav-offcanvas">
+        <li><a href="index.html"> HOME </a></li>
+        <li><a href="hobby.html"> HOBBY </a></li>
+        <li><a href="panny.html"> PANNY </a></li>
+      </ul>
+    </div>
+   </div>
   </div>
- </div>
-</div>
-    </body>
+  
+</body>
 </html>
