@@ -82,7 +82,7 @@
 /* Modifier: `uk-slidenav-contrast`
  ========================================================================== */
 .uk-slidenav-contrast {
-  color: rgba(55, 55, 55, 0.7);
+  color: rgba(200, 200, 200, 1);
 }
 /*
  * Hover
@@ -90,7 +90,7 @@
  */
 .uk-slidenav-contrast:hover,
 .uk-slidenav-contrast:focus {
-  color: rgba(55, 55, 55, 0.9);
+  color: #009688;
 }
 /* Active */
 .uk-slidenav-contrast:active {
