@@ -8,11 +8,11 @@ html {
 
 body {
   margin: 0;
-  background-image: url(../images/sky.jpg);
-  background-image: -webkit-url(../images/sky.jpg);
-  background-image: -ms-url(../images/sky.jpg);
-  background-image: -o-url(../images/sky.jpg);
-  background-image: -moz-url(../images/sky.jpg);
+  background-image: url(../images/sky1.jpg);
+  background-image: -webkit-url(../images/sky1.jpg);
+  background-image: -ms-url(../images/sky1.jpg);
+  background-image: -o-url(../images/sky1.jpg);
+  background-image: -moz-url(../images/sky1.jpg);
   background-size: cover;
   background-color: #adc7de;
 }
