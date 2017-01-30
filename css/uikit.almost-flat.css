@@ -1,5 +1,5 @@
 html {
-  font: normal 16px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 1rem / 1.2rem "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   background: fff;
@@ -8,11 +8,11 @@ html {
 
 body {
   margin: 0;
-  background-image: url(../images/sky1.jpg);
-  background-image: -webkit-url(../images/sky1.jpg);
-  background-image: -ms-url(../images/sky1.jpg);
-  background-image: -o-url(../images/sky1.jpg);
-  background-image: -moz-url(../images/sky1.jpg);
+  background-image: url(../images/sky.JPG);
+  background-image: -webkit-url(../images/sky.JPG);
+  background-image: -ms-url(../images/sky.JPG);
+  background-image: -o-url(../images/sky.JPG);
+  background-image: -moz-url(../images/sky.JPG);
   background-size: cover;
   background-color: #adc7de;
 }
@@ -211,18 +211,18 @@ h3,
 }
 h4,
 .uk-h4 {
-  font-size: 1.1px;
+  font-size: 1.1rem;
   line-height: 2.3rem;
 }
 h5,
 .uk-h5 {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.8rem;
 }
 h6,
 .uk-h6 {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
 }
 /* Lists
  ========================================================================== */
@@ -294,7 +294,7 @@ pre {
   border-radius: 3px;
 }
 /* Selection pseudo-element
- ========================================================================== */
+ ========================================================================= */
 ::-moz-selection {
   background: #39f;
   color: #fff;
