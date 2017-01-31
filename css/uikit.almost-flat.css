@@ -15,6 +15,9 @@ body {
   background-image: -moz-url(../images/sky.JPG);
   background-size: cover;
   background-color: #adc7de;
+  display: flex;
+  min-height:100vh;
+  flex-direction:column;
 }
 
 a {
@@ -8033,8 +8036,9 @@ a.uk-thumbnail:focus {
  ========================================================================== */
 .uk-container {
   box-sizing: border-box;
-  max-width: 980px;
+  max-width: 1200px;
   padding: 0 25px;
+  flex:1;
 }
 /* Large screen and bigger */
 @media (min-width: 1220px) {
